@@ -54,13 +54,16 @@ Lojistik süreçlerinde, ısıya duyarlı hassas ürünlerin (gıda, ilaç vb.) 
 * **Proje Hedefi:** IoT sensörleri aracılığıyla toplanan anlık sıcaklık ve nem verilerinin, **Blockchain** teknolojisi kullanılarak şifrelenmesi ve dağıtık ağ üzerinde değiştirilemez (immutable) bir şekilde saklanması amaçlanmaktadır.
 * **Teknik Süreç:** **C++** tabanlı güvenli iletişim protokollerinin tasarımı ve sensör kalibrasyon çalışmaları devam etmektedir.
 
-#### 2. 🚜 6x6 Otonom İnsansız Kara Aracı (İKA)
+#### 2. 🚜 Otonom İnsansız Kara Aracı (İKA)
 **Rol:** Kurucu Ortak & Yazılım Ekibi
-> **Kategori:** Girişimcilik & Ar-Ge | **Durum:** Prototip Geliştirme Sürecinde 🟡
+> **Kategori:** Teknofest Girişimcilik & Ar-Ge | **Durum:** Prototip Geliştirme Sürecinde 🟡
 
-Zorlu arazi koşullarında lojistik destek sağlayabilen ve keşif yapabilen, ticarileşme odaklı modüler bir otonom araç girişimidir.
-* **Proje Hedefi:** 6x6 çekiş sistemine sahip aracın; GPS ve sensör füzyonu verilerini kullanarak belirlenen güzergahı otonom olarak takip etmesi ve engel aşma kabiliyetine sahip olması hedeflenmektedir.
-* **Teknik Süreç:** Aracın kinematik kontrol algoritmalarının **C++** ile geliştirilmesi ve gömülü sistem entegrasyonu üzerine çalışmalar sürdürülmektedir.
+Zorlu arazi koşullarında tam otonom görev icra edebilen, yüksek hareket kabiliyetine sahip ve ticarileşme odaklı bir insansız kara aracı (İKA) girişimidir. Proje, mekanik dayanıklılık ile ileri seviye yapay zeka mimarisini bir araya getiren çok disiplinli bir Ar-Ge sürecini kapsamaktadır.
+
+* 🎯 **Proje Hedefi:** Aracın; insan müdahalesi olmadan çevresini algılaması, dinamik engellerden kaçınarak haritalandırma yapması ve kamera/sensör füzyonu kullanarak otonom hedef tespiti yapabilen bütüncül bir sistem haline getirilmesi hedeflenmektedir.
+* 🧠 **Yazılım ve Otonomi Mimarisi:** Çevresel algı ve dinamik navigasyon için **SLAM**, gerçek zamanlı nesne tespiti için ise **YOLO** algoritmaları **Python** ve **C++** dilleriyle geliştirilmektedir. Ayrıca kinematik kontrol, otonom karar alma mekanizmaları ve gömülü yazılımın donanıma entegrasyonu üzerine çalışmalar sürdürülmektedir.
+* ⚙️ **Donanım ve Mekanik Kapasite:** %45 dik eğim tırmanabilme, engelleri aşabilme ve suya karşı tam sızdırmazlık sağlayan şasi tasarımının yanı sıra; araca entegre sensör, lazer işaretleyici ve acil durum emniyet sistemlerinin (BMS, otonom acil durdurma) kurulumu yapılmaktadır.
+* 🛠️ **Kullanılan Teknolojiler:** `C++`, `Python`, `SLAM`, `YOLO`, `Computer Vision`, `Sensör Füzyonu`
 
 #### 3. 📰 Akıllı Gündem Ajansı
 **Rol:** Bireysel Geliştirici
